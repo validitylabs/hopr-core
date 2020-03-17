@@ -9,13 +9,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@hoprnet/hopr-core-connector-interface@hoprnet/hopr-core-connector-interface":
+"@validitylabs/hopr-core-connector-interface@validitylabs/hopr-core-connector-interface":
   version "1.0.0"
-  resolved "https://codeload.github.com/hoprnet/hopr-core-connector-interface/tar.gz/84d085af1310fa4c8b542b2c6d77ffec6d4cc7ee"
+  resolved "https://codeload.github.com/validitylabs/hopr-core-connector-interface/tar.gz/84d085af1310fa4c8b542b2c6d77ffec6d4cc7ee"
 
-"@hoprnet/hopr-core-polkadot@hoprnet/hopr-core-polkadot":
+"@validitylabs/hopr-core-polkadot@validitylabs/hopr-core-polkadot":
   version "0.0.2"
-  resolved "https://codeload.github.com/hoprnet/hopr-core-polkadot/tar.gz/dec535d42a8287b0ea40b159445a6caf5886752d"
+  resolved "https://codeload.github.com/validitylabs/hopr-core-polkadot/tar.gz/dec535d42a8287b0ea40b159445a6caf5886752d"
   dependencies:
     "@polkadot/api" "^0.100.1"
     "@polkadot/util" "^1.8.1"
@@ -25,9 +25,9 @@
     peer-id "^0.13.9"
     secp256k1 "~4.0.0"
 
-"@hoprnet/hopr-types@hoprnet/hopr-types":
+"@validitylabs/hopr-types@validitylabs/hopr-types":
   version "0.3.0"
-  resolved "https://codeload.github.com/hoprnet/hopr-types/tar.gz/8059aa1da30021432af121f79f19f8e42e4c0bc2"
+  resolved "https://codeload.github.com/validitylabs/hopr-types/tar.gz/8059aa1da30021432af121f79f19f8e42e4c0bc2"
 
 "@nodeutils/defaults-deep@~1.1.0":
   version "1.1.0"
