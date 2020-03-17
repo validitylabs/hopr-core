@@ -58,7 +58,7 @@ You might need to setup further operating system dependent, please refer to the 
 
 Start by cloning this repository, let `yarn` install the dependencies and change the filename of the example settings file (don't worry, to do a quick local test you don't need to touch the content of the file and default settings work!):
 ```
-$ git clone -b jigsaw https://github.com/hoprnet/hopr-core.git
+$ git clone -b jigsaw https://github.com/validitylabs/hopr-core.git
 $ cd hopr-core
 
 # in case you are using NVM (Node Versioning Manager), run the following two commands:
@@ -383,7 +383,7 @@ mkdir hopr
 ## Get Substrate module
 
 ```
-$ git clone https://github.com/hoprnet/hopr-polkadot
+$ git clone https://github.com/validitylabs/hopr-polkadot
 $ cd hopr-polkadot
 
 # Install Rust, if not yet happened
@@ -411,7 +411,7 @@ $ ./target/debug/hopr-polkadot purge-chain --dev -y && cargo run -- --dev
 Open another terminal window and run:
 
 ```
-$ git clone https://github.com/hoprnet/hopr-core-polkadot.git
+$ git clone https://github.com/validitylabs/hopr-core-polkadot.git
 
 $ cd hopr-core-polkadot
 
@@ -433,7 +433,7 @@ $ ts-node ./src/scripts/fundAccounts.ts
 Start by cloning this repository, let `yarn` install the dependencies and change the filename of the example settings file (don't worry, to do a quick local test you don't need to touch the content of the file and default settings work!):
 
 ```
-$ git clone -b jigsaw https://github.com/hoprnet/hopr-core.git
+$ git clone -b jigsaw https://github.com/validitylabs/hopr-core.git
 $ cd hopr-core
 
 # in case you are using NVM (Node Versioning Manager), run the following two commands:
@@ -441,7 +441,7 @@ $ nvm use
 
 $ yarn install
 # if not already installed
-# yarn add https://github.com/hoprnet/hopr-core-polkadot\
+# yarn add https://github.com/validitylabs/hopr-core-polkadot\
 
 # print current working directory
 $ cwd // e.g. /Volumes/DEV/hopr/hopr-core
