@@ -20,7 +20,7 @@
   "homepage": "https://hopr.network",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoprnet/hopr-core.git"
+    "url": "https://github.com/validitylabs/hopr-core.git"
   },
   "scripts": {
     "postinstall": "tsc -d -p .",
@@ -70,9 +70,9 @@
     "xor-distance": "~2.0.0"
   },
   "devDependencies": {
-    "@hoprnet/hopr-core-connector-interface": "hoprnet/hopr-core-connector-interface",
-    "@hoprnet/hopr-core-polkadot": "hoprnet/hopr-core-polkadot",
-    "@hoprnet/hopr-types": "hoprnet/hopr-types",
+    "@validitylabs/hopr-core-connector-interface": "validitylabs/hopr-core-connector-interface",
+    "@validitylabs/hopr-core-polkadot": "validitylabs/hopr-core-polkadot",
+    "@validitylabs/hopr-types": "validitylabs/hopr-types",
     "@types/bn.js": "^4.11.6",
     "@types/bs58": "^4.0.1",
     "@types/clear": "^0.1.0",
