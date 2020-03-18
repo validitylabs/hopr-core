@@ -441,7 +441,7 @@ $ nvm use
 
 $ yarn install
 # if not already installed
-# yarn add https://github.com/validitylabs/hopr-core-polkadot\
+# yarn add https://github.com/validitylabs/hopr-core-polkadot
 
 # print current working directory
 $ cwd // e.g. /Volumes/DEV/hopr/hopr-core

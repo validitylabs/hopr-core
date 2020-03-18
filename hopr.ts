@@ -35,8 +35,8 @@ import clear from 'clear'
  */
 const knownConnectors = [
   /* prettier-ignore */
-  ['@hoprnet/hopr-core-ethereum', 'ethereum'],
-  ['@hoprnet/hopr-core-polkadot', 'polkadot']
+  ['@validitylabs/hopr-core-ethereum', 'ethereum'],
+  ['@validitylabs/hopr-core-polkadot', 'polkadot']
 ]
 
 let node: Hopr<HoprCoreConnector>,
@@ -159,9 +159,9 @@ async function parseOptions(): Promise<void | Options> {
   }
 
   try {
-    connector = (await import(`@hoprnet/hopr-core-${options.network}`)).default as typeof HoprCoreConnector
+    connector = (await import(`@validitylabs/hopr-core-${options.network}`)).default as typeof HoprCoreConnector
   } catch (err) {
-    console.log(`Could not find <${chalk.red(`@hoprnet/hopr-core-${options.network}`)}>. Please make sure it is available under ./node_modules!\n`)
+    console.log(`Could not find <${chalk.red(`@validitylabs/hopr-core-${options.network}`)}>. Please make sure it is available under ./node_modules!\n`)
     await listConnectors()
     return
   }
