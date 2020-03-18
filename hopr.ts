@@ -21,15 +21,14 @@ import { encode, decode } from 'rlp'
 const Multihash = require('multihashes')
 import bs58 from 'bs58'
 
-import type  HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
-import type { Types, Channel as ChannelInstance } from '@hoprnet/hopr-core-connector-interface'
+import type  HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
+import type { Types, Channel as ChannelInstance } from '@validitylabs/hopr-core-connector-interface'
 
 import Hopr from './src'
 import { pubKeyToPeerId, addPubKey, u8aToHex } from './src/utils'
 
 import figlet from 'figlet'
 import clear from 'clear'
-import type { ChannelBalance } from '@hoprnet/hopr-core-connector-interface/src/types'
 
 /**
  * Alphabetical list of known connectors.

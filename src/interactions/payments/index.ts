@@ -1,5 +1,5 @@
 import Hopr from '../..'
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 
 import { Opening } from './open'
 import { OnChainKey } from './onChainKey'

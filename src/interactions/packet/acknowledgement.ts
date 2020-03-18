@@ -6,7 +6,7 @@ import PeerInfo from 'peer-info'
 
 import chalk from 'chalk'
 
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 import Hopr from '../../'
 import { Acknowledgement } from '../../messages/acknowledgement'
 

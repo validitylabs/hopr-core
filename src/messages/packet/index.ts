@@ -17,7 +17,7 @@ import { LevelUp } from 'levelup'
 
 import Hopr from '../../'
 
-import HoprCoreConnector,  { Types } from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector,  { Types } from '@validitylabs/hopr-core-connector-interface'
 
 const PRIVATE_KEY_LENGTH = 32
 const OPENING_TIMEOUT = 86400 * 1000

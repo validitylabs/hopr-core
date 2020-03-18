@@ -1,4 +1,4 @@
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 
 import Hopr from '../..'
 

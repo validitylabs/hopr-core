@@ -4,7 +4,7 @@ import { u8aConcat } from '../../utils'
 import { deriveTicketKeyBlinding } from '../packet/header'
 import { KEY_LENGTH } from '../packet/header/parameters'
 import { Challenge } from '../packet/challenge'
-import  HoprCoreConnector, { Types } from '@hoprnet/hopr-core-connector-interface'
+import  HoprCoreConnector, { Types } from '@validitylabs/hopr-core-connector-interface'
 import PeerId from 'peer-id'
 
 /**

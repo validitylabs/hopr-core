@@ -24,7 +24,7 @@ import Stream from 'stream'
 import PeerId from 'peer-id'
 import PeerInfo from 'peer-info'
 
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 import { Interactions, Duplex } from './interactions'
 import * as DbKeys from './db_keys'
 

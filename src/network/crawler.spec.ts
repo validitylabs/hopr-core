@@ -11,7 +11,7 @@ import Debug from 'debug'
 import chalk from 'chalk'
 
 import Hopr from '..'
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 import { Interactions } from '../interactions'
 import { Crawler } from './crawler'
 import Multiaddr from 'multiaddr'

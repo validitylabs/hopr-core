@@ -1,9 +1,9 @@
 import assert from 'assert'
 import { Challenge } from './challenge'
-import { Utils, Types } from '@hoprnet/hopr-core-polkadot'
+import { Utils, Types } from '@validitylabs/hopr-core-polkadot'
 import BN from 'bn.js'
 import PeerId from 'peer-id'
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 import { randomBytes } from 'crypto'
 
 describe('test creation & verification of a challenge', function() {

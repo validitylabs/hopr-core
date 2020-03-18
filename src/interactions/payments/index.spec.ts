@@ -9,8 +9,8 @@ import TCP = require('libp2p-tcp')
 import MPLEX = require('libp2p-mplex')
 import SECIO = require('libp2p-secio')
 
-import { Types } from '@hoprnet/hopr-core-polkadot'
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import { Types } from '@validitylabs/hopr-core-polkadot'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 import { Interactions } from '..'
 
 import Hopr from '../..'

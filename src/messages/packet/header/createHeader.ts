@@ -6,7 +6,7 @@ import { MAX_HOPS } from '../../../constants'
 
 import { Header, BETA_LENGTH, deriveBlinding, derivePRGParameters, deriveTicketKey, deriveTicketKeyBlinding, deriveTicketLastKey, createMAC } from './index'
 
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 
 import Hopr from '../../../'
 

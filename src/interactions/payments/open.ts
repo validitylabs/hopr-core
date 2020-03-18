@@ -1,5 +1,5 @@
 import Hopr from '../../'
-import HoprCoreConnector, { Types } from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector, { Types } from '@validitylabs/hopr-core-connector-interface'
 
 import pipe from 'it-pipe'
 

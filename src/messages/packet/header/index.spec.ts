@@ -1,9 +1,9 @@
 import assert from 'assert'
 import { Header, deriveBlinding, deriveCipherParameters, deriveTagParameters, createMAC, deriveTicketKey, derivePRGParameters } from '.'
-import { Utils } from '@hoprnet/hopr-core-polkadot'
+import { Utils } from '@validitylabs/hopr-core-polkadot'
 import PeerId from 'peer-id'
 import Hopr from '../../../'
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 import { randomBytes } from 'crypto'
 import secp256k1 from 'secp256k1'
 

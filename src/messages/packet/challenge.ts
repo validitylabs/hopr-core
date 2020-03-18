@@ -1,7 +1,7 @@
 import secp256k1 from 'secp256k1'
 import PeerId from 'peer-id'
 
-import HoprCoreConnector, { Types } from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector, { Types } from '@validitylabs/hopr-core-connector-interface'
 
 import BN from 'bn.js'
 

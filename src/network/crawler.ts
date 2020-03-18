@@ -1,6 +1,6 @@
 import chalk from 'chalk'
 import PeerInfo from 'peer-info'
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 
 import { randomSubset, randomInteger, Token, getTokens } from '../utils'
 import { MAX_HOPS, CRAWLING_RESPONSE_NODES } from '../constants'

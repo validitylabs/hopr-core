@@ -1,5 +1,5 @@
 import Hopr from '../../'
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 
 import { PROTOCOL_ONCHAIN_KEY } from '../../constants'
 import { AbstractInteraction } from '../abstractInteraction'

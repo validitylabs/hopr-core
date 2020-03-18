@@ -34,7 +34,7 @@ const HASH_KEY_TX_LAST = 'Tx_Last'
 
 const TAG_SIZE = 16
 
-import HoprCoreConnector from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector from '@validitylabs/hopr-core-connector-interface'
 
 export type CipherParameters = {
   key: Uint8Array
